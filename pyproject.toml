@@ -4,11 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ovos-stt-plugin-browser"
-version = "0.1.0a1"
+version = "0.1.0a2"
 description = "OpenVoiceOS STT plugin: the browser's own speech recognition (Web Speech API)"
 readme = "README.md"
 license = {text = "Apache-2.0"}
 authors = [{name = "emkay-voice"}]
+maintainers = [{name = "Andreas Lorensen"}]
 requires-python = ">=3.10"
 keywords = ["ovos", "openvoiceos", "plugin", "stt", "speech-to-text", "browser", "web-speech-api", "pyodide", "emkay"]
 classifiers = [
